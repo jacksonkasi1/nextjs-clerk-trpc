@@ -1,0 +1,8 @@
+{
+  "use": "sig",
+  "kty": "RSA",
+  "kid": "ins_2xxxxxxxxxx",
+  "alg": "RS256",
+  "n": "xxxxxxxxxx",
+  "e": "xxx"
+}
