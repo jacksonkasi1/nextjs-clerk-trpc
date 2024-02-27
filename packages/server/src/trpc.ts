@@ -1,6 +1,7 @@
 import { type NextRequest } from "next/server";
 
-import { type Session } from "@clerk/nextjs/server";
+// import { type Session } from "@clerk/nextjs/server";
+import { type Session } from "@clerk/backend";
 import { importJWK, jwtVerify } from "jose";
 import { initTRPC } from "@trpc/server";
 import superjson from "superjson";
